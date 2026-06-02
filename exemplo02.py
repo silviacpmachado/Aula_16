@@ -1,8 +1,12 @@
+# pip install python-dotenv
 #pip install sqlalchemy pymysql - instalando banco de dados sqlalchemy
 from sqlalchemy import create_engine
 from dotenv import load_dotenv #necessário p trabalhar com .env
 import pandas as pd 
 import os
+
+
+load_dotenv()
 
 host = os.getenv('DB_HOST')
 user = os.getenv('DB_USER')
