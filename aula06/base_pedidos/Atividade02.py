@@ -1,3 +1,4 @@
+#pip install sqlalchemy pymysql - instalando banco de dados sqlalchemy
 from sqlalchemy import create_engine
 import pandas as pd 
 
